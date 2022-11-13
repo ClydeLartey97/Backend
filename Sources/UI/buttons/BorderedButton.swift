@@ -46,14 +46,14 @@ public struct BorderedButton : View {
 struct BorderedButton_Previews : PreviewProvider {
     static var previews: some View {
         VStack {
-            BorderedButton(text: "Add to wishlist",
+            BorderedButton(text: "Add to watchlist",
                            systemImageName: "film",
                            color: .green,
                            isOn: false,
                            action: {
                             
             })
-            BorderedButton(text: "Add to wishlist",
+            BorderedButton(text: "Add to watchlist",
                            systemImageName: "film",
                            color: .blue,
                            isOn: true,
